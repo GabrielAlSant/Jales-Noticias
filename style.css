@@ -1,0 +1,305 @@
+*{font-family: 'Wix Madefor Display', sans-serif;}
+
+
+
+.header{
+    background-color: #043c74;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid #2b034b;
+    font-weight: bold;
+}
+
+nav input {
+    width: 700px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.topicos {
+    margin-left: 180px;
+    margin-top: 0px;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: white;
+    color: #2b034b;
+    border: 2px white solid;
+}
+
+.list{
+    display: inline !important;
+}
+
+.list li{
+    text-align: start;
+}
+
+.headercontent{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.header .title{
+    font-size: 25px;
+    padding: 15px;
+    margin-left: -20px;
+    margin-right: 150px;
+}
+
+.headercontent ul{
+    margin-left: 10px;
+    display: flex;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+.bannerimg{
+    width: 100%;
+ height: 40vh!important;
+}
+
+
+.width{
+    border: 1px solid #2F4DE1;
+    width: 180px;
+    height: 190px;
+    margin-left: -12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+}
+
+.mr{margin-right: 60px;}
+
+.test{
+    display: inline-block;
+}
+
+
+
+/*card */
+
+.displayd{
+    display: flex;
+}
+
+.titleall{
+    text-align: center;
+    color: #043c74;
+    text-decoration: underline 1.5px solid;
+    text-underline-offset: 8px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    margin-top: 50px;
+}
+
+.cardn {
+    border: 1px solid black;
+    width: 800px;
+    height:240px;
+    border-radius: 50px;
+    display: inline-block;   
+     margin-top: 20px;
+
+}
+
+.cardcontent {
+    display: inline-block;
+    padding: 20px;
+}
+
+.cardimg{
+    padding: 10px;
+    float: left;
+    width: 250px;
+    height: 190px;
+    border-radius: 20px;
+}
+
+
+.cardtext{
+    display: inline;
+}
+
+
+.cardtitle{
+    font-size: 20px;
+    color: #043c74;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.cardres{
+    font-size: 15px;
+    text-align: justify;
+    
+}
+
+
+
+/*footer*/
+
+footer {
+    background-color:#043c74;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    height: 220px;
+}
+
+
+
+
+
+footer .icons{
+    text-align: center;
+  
+}
+
+
+footer .icons img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer .err{
+text-align: center;
+margin-top: 30px;
+}
+
+footer .vis{
+    text-align: center;
+}
+
+footer .resv{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 1000px){
+.mr{margin-right: 0px;}
+.a{
+    display: inline!important;
+}
+
+
+    .headercontent{
+        display: inline;
+        text-align: center;
+    }
+
+ nav input {
+    display: inline;
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.headercontent .title{
+    margin: auto;
+    display: inline;
+    margin-top: 5px;
+    text-align: center;
+ }
+
+
+
+ .topicos {
+    margin-left: -20px!important;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: white;
+    color: #2b034b;
+    border: 2px white solid;
+    display: inline !important;
+    margin: auto;
+}
+
+.displayd{
+    text-align: center !important;
+    display: inline !important;
+}
+
+
+
+.cardn {
+border:none;
+    border-radius: 50px;
+    width: 200px !important;
+    display: inline !important;
+    }
+
+
+
+
+.cardimg{
+    padding: 10px;
+    float: none !important;
+    width: 300px !important;
+
+}
+
+
+
+.cards {
+    margin-top: 50px;
+    display: inline !important;
+    text-align: center !important;
+}
+
+.test{
+    text-align: center !important;
+}
+
+footer {
+    height: 250px!important;
+}
+}
+
+@media (max-width: 1400px){
+ 
+     nav input {
+        display: inline;
+        width: 500px;
+        border-radius: 50px;
+        border: none;
+        text-align: center;
+        font-weight: bolder;
+        padding: 5px;
+        font-weight: bold;
+    }
+    
+    .topicos {
+        margin-left: 100px;
+        margin-top: 0px;
+        border-radius: 50px;
+        padding: 5px;
+        background-color: white;
+        color: #2b034b;
+        border: 2px white solid;
+    }
+  
+   
+    }

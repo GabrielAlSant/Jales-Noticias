@@ -1,0 +1,101 @@
+.titlecad {
+    margin-top: 50px;
+ text-align: center;
+ text-decoration: underline 2px solid;
+ color: #043c74;
+ text-underline-offset: 10px;
+ margin-bottom: 50px;
+}
+
+.cardcad{
+border: 1px solid black;
+border-radius: 40px;
+width: 500px;
+text-align: center;
+}
+
+.cardcad .cardcontent{
+    padding: 20px;
+}
+
+.cardcad .cardcontent .name{
+    text-align: start;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.cardcad .cardcontent .buttoncad{
+    float: right;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #043c74;
+    color: white;
+    padding: 10px;
+    width: 400px;
+}
+
+.cardcad .cardcontent .buttoncad:hover{
+    border: 1px solid #043c74;
+    border-radius: 20px;
+    background-color: white;
+    color: #043c74;
+    padding: 10px;
+}
+
+
+
+.cardcad .cardcontent .inp{
+    border-radius: 20px;
+    background-color: white;
+    color: #043c74;
+    padding: 5px;
+    width: 400px;
+}
+
+.cardcad .cardcontent .check{
+    width: 20px;
+}
+
+.cardcad .cardcontent p{
+    margin-top: 15px;
+}
+
+.ml{
+    margin-right: 70px;
+}
+
+
+@media (max-width:1000px){
+    .ml{
+        margin-right: 00px;
+    }
+    
+.cardcad{
+        border: 1px solid black;
+        border-radius: 40px;
+        width: 400px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+        
+        }
+
+        .cardcad .cardcontent .inp{
+            border-radius: 20px;
+            background-color: white;
+            color: #043c74;
+            padding: 5px;
+            width: 300px;
+        }
+
+.cardcad .cardcontent .buttoncad{
+    float: right;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #043c74;
+    color: white;
+    padding: 10px;
+    width: 300px;
+} 
+
+}
