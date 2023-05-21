@@ -64,8 +64,44 @@ text-align: center;
     margin-right: 70px;
 }
 
+.infologin{
+    display: flex;
+}
+
+.textlogin{
+ 
+    width: 600px;
+
+}
+
+.infologin img{
+   border-radius:50px ;
+
+}
+
+.mlimg{
+    margin-right: 20px;
+}
 
 @media (max-width:1000px){
+    .infologin{
+        display: inline;
+      
+    }
+
+    .infologin img{
+        float: none !important;
+        margin: auto !important;
+     margin-bottom: 20px !important;
+     }
+
+    .textlogin{
+        margin: auto;
+        text-align: justify;
+        width: 320px !important;
+    
+    }
+    
     .ml{
         margin-right: 00px;
     }

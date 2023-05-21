@@ -108,7 +108,7 @@ li {
 
 .cardn {
     border: 1px solid black;
-    width: 800px;
+    width: 900px;
     height:240px;
     border-radius: 50px;
     display: inline-block;   
@@ -140,11 +140,13 @@ li {
     color: #043c74;
     text-align: justify;
     margin-top: 20px;
+    width:800px;
 }
 
 .cardres{
     font-size: 15px;
     text-align: justify;
+    width: 800px;
     
 }
 
@@ -207,8 +209,9 @@ footer .resv{
     }
 
  nav input {
+    margin-left: -20px !important;
     display: inline;
-    width: 300px;
+    width: 300px !important;
     border-radius: 50px;
     border: none;
     text-align: center;
@@ -269,8 +272,19 @@ border:none;
     text-align: center !important;
 }
 
-.test{
-    text-align: center !important;
+.cardtitle{
+    font-size: 20px;
+    color: #043c74;
+    text-align: justify;
+    margin-top: 20px;
+    width:300px;
+}
+
+.cardres{
+    font-size: 15px;
+    text-align: justify;
+    width: 300px;
+    
 }
 
 footer {
